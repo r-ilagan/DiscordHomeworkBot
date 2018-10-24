@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DiscordHomeworkBot.iml" filepath="$PROJECT_DIR$/.idea/DiscordHomeworkBot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../TutorialBot/.idea/TutorialBot.iml" filepath="$PROJECT_DIR$/../TutorialBot/.idea/TutorialBot.iml" />
     </modules>
   </component>
 </project>
