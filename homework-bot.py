@@ -25,9 +25,10 @@ async def on_message(message):
     if "!help" == message.content:
         await channel.send(instruct.print_help())
     elif message.content.startswith('!ass'):
-        homework_channel = client.get_channel(491093305883623434)
-        await homework_channel.send("plop")
-
+        #homework_channel = client.get_channel(491093305883623434)
+        #await homework_channel.send("plop")
+        await channel.send(instruct.print_assignment(message.content))
+        # if it returned no hmwk, then delete after a couple seconds
 
 
 # runs the bot
